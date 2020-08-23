@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/smart-news/static/css/main.efb7e5c7.chunk.css",
+    "main.js": "/smart-news/static/js/main.caafdd3f.chunk.js",
+    "main.js.map": "/smart-news/static/js/main.caafdd3f.chunk.js.map",
+    "runtime-main.js": "/smart-news/static/js/runtime-main.ebd1bbe8.js",
+    "runtime-main.js.map": "/smart-news/static/js/runtime-main.ebd1bbe8.js.map",
+    "static/js/2.7aa9e5ac.chunk.js": "/smart-news/static/js/2.7aa9e5ac.chunk.js",
+    "static/js/2.7aa9e5ac.chunk.js.map": "/smart-news/static/js/2.7aa9e5ac.chunk.js.map",
+    "index.html": "/smart-news/index.html",
+    "precache-manifest.abafb8b02aa233da95cad4ce3fc89bed.js": "/smart-news/precache-manifest.abafb8b02aa233da95cad4ce3fc89bed.js",
+    "service-worker.js": "/smart-news/service-worker.js",
+    "static/css/main.efb7e5c7.chunk.css.map": "/smart-news/static/css/main.efb7e5c7.chunk.css.map",
+    "static/js/2.7aa9e5ac.chunk.js.LICENSE.txt": "/smart-news/static/js/2.7aa9e5ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebd1bbe8.js",
+    "static/js/2.7aa9e5ac.chunk.js",
+    "static/css/main.efb7e5c7.chunk.css",
+    "static/js/main.caafdd3f.chunk.js"
+  ]
+}

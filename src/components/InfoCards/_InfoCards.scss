@@ -1,0 +1,25 @@
+.info-card {
+  width: 25rem;
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 3%;
+
+  .info h4 {
+    margin-bottom: 0.5rem;
+  }
+
+  .text h4 {
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: $s-size;
+  }
+}

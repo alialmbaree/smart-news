@@ -1,0 +1,70 @@
+.card {
+  width: 25rem;
+  height: 53rem;
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid lighten($light-gray, 20%);
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+
+  .card-img {
+    height: 20rem;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+
+    h3 {
+      font-size: $s-size;
+      color: $light-gray;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .news-title {
+    font-size: $m-size;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .news-content {
+    height: 40rem;
+    font-size: $s-size;
+    color: $light-gray;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+
+    .news-button {
+      border: none;
+      background: none;
+      height: 2rem;
+      color: darken($light-gray, 20%);
+      font-size: $s-size;
+    }
+
+    .card-number {
+      color: darken($light-gray, 20%);
+      font-size: $m-size;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.active-card {
+  border-bottom: 0.4rem solid #22289a;
+  border-radius: 0 0 0.7rem 0.7rem;
+}

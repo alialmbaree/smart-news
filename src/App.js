@@ -37,7 +37,7 @@ const App = () => {
   return (
     <div className='App'>
       <div className='news-img'>
-        <img src='https://www.cwa2100.org/system/files/news.gif' alt='News' />
+        <img src='https://image.freepik.com/free-vector/breaking-news-background-design_23-2148525709.jpg' alt='News' />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>

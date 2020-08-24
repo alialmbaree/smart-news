@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  background-color: #ededed;
+  background: $dark-blue;
+  min-height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
   scroll-behavior: smooth;

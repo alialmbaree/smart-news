@@ -6,13 +6,28 @@
 
 .App {
   height: 100vh;
+
   .news-img {
     text-align: center;
-    margin: 3rem auto;
+    margin: 0 auto;
 
     img {
+      width: 30rem;
       border-radius: 3rem;
-      box-shadow: 0.5rem 0.5rem 2rem 0.5rem #ccc, -0.5rem -0.5rem 2rem 0.5rem #ccc;
+      margin-top: 2rem;
+      position: relative;
+      box-shadow: 0 0 3rem #fff, 0 0 5rem #fff, 0 0 7rem #fff;
+      animation: animate 5s linear infinite;
     }
+  }
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
   }
 }

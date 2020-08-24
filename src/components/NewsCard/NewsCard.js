@@ -1,4 +1,5 @@
 import React, { useState, useEffect, createRef } from 'react';
+import { FaAngleRight } from 'react-icons/fa';
 
 const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i, activeArticle }) => {
   const [elRefs, setElRefs] = useState([]);
@@ -30,7 +31,9 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
       <h1 className='news-title'>{title}</h1>
       <p className='news-content'>{description}</p>
       <div className='card-bottom'>
-        <button className='news-button'>Learn More</button>
+        <button className='news-button' onClick={() => window.open(url, '_blank')}>
+          Learn More <FaAngleRight />
+        </button>
         <h1 className='card-number'>{i + 1}</h1>
       </div>
     </div>

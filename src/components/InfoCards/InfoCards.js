@@ -12,6 +12,7 @@ const InfoCards = () => {
     <div className='cards-container'>
       {infoCards.map((infoCard) => (
         <div className='info-card' style={{ backgroundColor: infoCard.color }}>
+          <div className='glow'></div>
           <h3 className='title'>{infoCard.title}</h3>
 
           <div className='info'>

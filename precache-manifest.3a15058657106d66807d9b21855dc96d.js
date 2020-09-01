@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6a714dc4b954cab13985e56d09fded3",
+    "revision": "35aed4dcdb8a34923589725b7a7b319e",
     "url": "/smart-news/index.html"
   },
   {
-    "revision": "7d0113c1a9d4575d247d",
-    "url": "/smart-news/static/css/main.8a1aefee.chunk.css"
+    "revision": "5709ad98e63064b1148b",
+    "url": "/smart-news/static/css/main.d3720564.chunk.css"
   },
   {
     "revision": "97bf9d1193ab883d5a2f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smart-news/static/js/2.97f481dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d0113c1a9d4575d247d",
-    "url": "/smart-news/static/js/main.e0af7285.chunk.js"
+    "revision": "5709ad98e63064b1148b",
+    "url": "/smart-news/static/js/main.0317bdc2.chunk.js"
   },
   {
     "revision": "d78b69a522c19e53f20a",
